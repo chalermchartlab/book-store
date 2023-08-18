@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Navigator Bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">ร้านหนังสือของคูน</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">หน้าแรก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">ติดต่อ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ประเภทหนังสือ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-link disabled" aria-disabled="true" href="novel.html">นิยาย</a></li>
+                <li><a class="dropdown-item" href="programming.html">เขียนโปรแกรม</a></li>
+
+                <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <br>
+
+  <div class="container">
+    <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/shop-front.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/shop-inside.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/shop-counter.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <br>
+  <!-- Card -->
+  <div class="container">
+    <h1 class="text-center" style="margin-top: 50px; margin-bottom: 50px; background-color: burlywood;">
+      หมวดหนังสือเขียนโปรแกรม</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card " style="width: 18rem;">
+          <img src="image/book-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">พัฒนาเว็บไซต์สมัยใหม่ด้วย HTML5 JavaScript + CSS3 ฉบับสมบูรณ์</h5>
+            <p class="card-text">เรียนรู้พื้นฐานการพัฒนาเว็บไซต์ด้วย HTML5, JavaScript และ CSS3 ปูพื้นฐานการใช้งาน HTML
+              ตั้งแต่เริ่มต้น พร้อมตัวอย่างการใช้งานแท็กต่าง ๆ ของ HTML5 วิธีใช้ Inspector เพื่อตรวจสอบโค้ด และใช้
+              Outliner ฯลฯ</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">ผู้เขียน จีราวุธ วารินทร์</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary card-link">ใส่ตระกร้า</a>
+            <a href="#" class="btn btn-primary card-link">ซื้อเดี๋ยวนี้</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="image/book-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">โมเดิร์น JavaScript เก่งได้ใน 30 วัน ฉบับ Node.js + MongoDB</h5>
+            <p class="card-text">พื้นฐาน JavaScript ครบทุกแง่มุม สำหรับนักเรียน นักศึกษา และโปรแกรมเมอร์ การใช้
+              JavaScript จัดการกับ DOM สร้างเว็บแอปพลิเคชันฝั่งเซิร์ฟเวอร์ด้วย Node.js พื้นฐานการใช้งานฐานข้อมูล MongoDB
+              ฯลฯ</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">ผู้เขียน จีราวุธ วารินทร์</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary card-link">ใส่ตระกร้า</a>
+            <a href="#" class="btn btn-primary card-link">ซื้อเดี๋ยวนี้</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="image/book-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">มือใหม่ Python เก่งได้ใน 30 วัน</h5>
+            <p class="card-text">พื้นฐาน Python สำหรับนักเรียน นักศึกษา และโปรแกรมเมอร์ ตัวอย่างโค้ดจริงกว่า 150
+              ตัวอย่าง พร้อมคำอธิบายโดยละเอียด วิธีดึงข้อมูลจากเว็บไซต์ สร้างเกม และเว็บแอปพลิเคชัน และอีกมากมาย</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">ผู้เขียน จีราวุธ วารินทร์</li>
+
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary card-link">ใส่ตระกร้า</a>
+            <a href="#" class="btn btn-primary card-link">ซื้อเดี๋ยวนี้</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
